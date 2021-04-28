@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--JQUERY LINKS-->
+    <link rel="stylesheet" href="js/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="js/owl/owl.theme.default.css">
     <title>CloneFlix</title>
 </head>
 <body>
@@ -30,14 +34,60 @@
                     <h3 class="title">CODE GEASS</h3>
                     <p class="description">A história ocorre a partir do ano de 2010. Na pífia introdução da série vemos Britania, um império colonialista, tomar conta do Japão por meio da força, usando mechas de nome Nightmare Frames, arma para o qual o Japão não estava preparado. Vencidos, os japoneses são designados “11”, uma nova área sob controle de Britania. Ao mesmo tempo, somos apresentados a Lelouch Lamperouge e Suzaku Kururugi, ainda duas crianças. O primeiro jura destruir Britania a qualquer custo.</p>
                     <div class="all-buttons">
-                        <button type="button" role="button" class="button">WATCH NOW</button>
-                        <button type="button" role="button" class="button">MORE DETAILS</button>
+                        <button type="button" role="button" class="button">
+                            <i class="fas fa-play"></i>
+                            WATCH NOW
+                        </button>
+                        <button type="button" role="button" class="button">
+                            <i class="fas fa-info-circle"></i>
+                            MORE DETAILS
+                        </button>
         
                     </div>
                 </div>
-            </div>
-           
+            </div>    
     </main>
+    
     <!--End OF BANNER SECTION-->
+    <!--CAROUSEL SECTION-->
+    <section class="carousel">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="assets/images/death.jpg" alt="death note" class="movie-box">
+            </div>
+            <div class="item">
+                <img src="assets/images/dragonBall.jpg" alt="dragon ball" class="movie-box">
+            </div>
+            <div class="item">
+                <img src="assets/images/hunterxhunter.jpg" alt="hunter x hunter" class="movie-box">
+            </div>
+            <div class="item">
+                <img src="assets/images/kimetsu.jpg" alt="kimetsu no yaiba" class="movie-box">
+            </div>
+            <div class="item">
+                <img src="assets/images/konosuba.jpg" alt="konosuba" class="movie-box">
+            </div>
+            <div class="item">
+                <img src="assets/images/onePiece.jpg" alt="One piece" class="movie-box">
+            </div>
+            <div class="item">
+                <img src="assets/images/sayonara.jpg" alt="sayonara" class="movie-box">
+            </div>
+            <div class="item">
+                <img src="assets/images/tengen.jpg" alt="guren lagan" class="movie-box">
+            </div>
+            <div class="item">
+                <img src="assets/images/tokyo.jpg" alt="tokyo revengers" class="movie-box">
+            </div>
+            <div class="item">
+                <img src="assets/images/world.jpg" alt="world trigger" class="movie-box">
+            </div>
+        </div>
+    </section>
+    <!--END OF CAROUSEL SECTION-->
+    <script src="https://kit.fontawesome.com/7599d2dd5b.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
 </body>
 </html>
